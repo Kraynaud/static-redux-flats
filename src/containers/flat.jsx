@@ -44,7 +44,7 @@ function mapStateToProps(state) {
 }
 
 function mapDispatchToProps(dispatch) {
-  return bindActionCreators({ selectFlat }, dispatch);
+  return bindActionCreators({ selectFlat: selectFlat }, dispatch);
 }
 
 export default connect(mapStateToProps, mapDispatchToProps)(Flat);

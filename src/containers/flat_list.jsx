@@ -42,7 +42,7 @@ function mapStateToProps(state) {
 }
 
 function mapDispatchToProps(dispatch) {
-  return bindActionCreators({ setFlats }, dispatch);
+  return bindActionCreators({ setFlats: setFlats }, dispatch);
 }
 
 // export default FlatList;
